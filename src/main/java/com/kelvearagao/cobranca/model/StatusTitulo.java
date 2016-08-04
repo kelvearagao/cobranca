@@ -1,4 +1,4 @@
-package com.kelvearagao.model;
+package com.kelvearagao.cobranca.model;
 
 public enum StatusTitulo {
 

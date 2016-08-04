@@ -1,4 +1,4 @@
-package com.kelvearagao;
+package com.kelvearagao.cobranca;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
