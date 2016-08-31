@@ -1,4 +1,4 @@
-package com.kelvearagao;
+package com.kelvearagao.cobranca;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

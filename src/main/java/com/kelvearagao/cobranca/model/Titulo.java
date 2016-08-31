@@ -1,4 +1,4 @@
-package com.kelvearagao.model;
+package com.kelvearagao.cobranca.model;
 
 import java.math.BigDecimal;
 import java.util.Date;
