@@ -98,6 +98,22 @@ public class TituloController {
 	}
 	
 	/**
+	 * Exclui um título e redireciona pra página de listagem com uma mesagem.
+	 * 
+	 * @param codigo
+	 * @param attributes
+	 * @return String
+	 */
+	@RequestMapping(value="{codigo}", method = RequestMethod.DELETE)
+	public String excluir(@PathVariable Long codigo, RedirectAttributes attributes) {
+		titulos.delete(codigo);
+		
+		attributes.addFlashAttribute("mensagem", "Título excluído com sucesso!");
+		
+		return "redirect:/titulos";
+	}
+	
+	/**
 	 * Passa pra view todos os status de título.
 	 * 
 	 * @return List<StatusTitulo>
